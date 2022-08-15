@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap);
+   
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-weight: 400;
+font-family: Roboto,Arial,sans-serif;
+color: #747474;
+padding-top: 20px;
+}
+header nav{
+    display:flex;
+    justify-content:space-between;
+}
+header nav ul{
+    display:flex;
+
+    list-style-type: none;
+}
+header nav ul li{
+    margin:3%;
+    white-space:nowrap;
+}
+
+header nav ul li:first-child a{
+    text-decoration: none;
+    color:#1FBDA8
+}
+header nav ul li a{
+    text-decoration: none;
+    color:#ABABAB;
+}
+header{
+    margin-bottom: 50px;;
+}
+
+
+.logo-docplanner{
+    width:268px;
+}
+.dropdown-content{
+    display:none;
+}
+.lead{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.lead div{
+    font-size:16px;
+    display:flex;
+
+    margin: .8em 0;
+line-height: 1.75;
+font-weight: 400;
+}
+
+h1{
+    font-family: Work Sans,Arial,sans-serif;
+font-weight: 300;
+letter-spacing: -.3px;
+line-height: 1.3;
+color:#00B39B;
+}
+.services{
+display:flex;
+gap:16px;
+justify-content: center;
+
+
+}
+
+.services article:first-child{
+    padding:2%;
+    border-radius:12px;
+    background:#00CCB1
+}
+.services article:nth-child(2){
+    padding:2%;
+    border-radius:12px;
+    background:#3D83DF;
+}
+.services article:nth-child(3){
+    padding:2%;
+    border-radius:12px;
+    background:#1B2734;
+}
+.services article{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.services h2{
+    margin-bottom: 15%;
+    font-size: 1.5em;
+}
+.services h1{
+    color:white;;
+}
+.brands{
+    margin-top:10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.brands h1{
+    margin:0;
+}
+.brands ul{
+    display: flex;
+flex-wrap:wrap;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.brands ul li{
+    margin:2%;
+}
+
+.brands_logos a svg{
+    color:#C4C4C4;
+    height: 20px;
+width: auto;
+max-width: 100%;
+padding-left: 10px;
+overflow: hidden;
+
+}
+.stats{
+    background-image: url(https://www.docplanner.com/img/sygnet@2x.png);
+    background-repeat:no-repeat ;
+    background-size:25% ;
+    background-position: bottom -30% right 90%;
+    background-color: #DAF6F6;
+    display: flex;
+    padding:0 14%;
+}
+
+.stats div:nth-child(2){
+display: flex;
+    }
+    
+
+.stats div:nth-child(2) div{
+display: flex;
+flex-direction: column;
+width:50%;
+
+}
+
+.stats div:nth-child(2) div article{
+    text-align: center;
+font-size: .8125em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+background-color: white;
+margin:5%;
+padding:15% 5%;;
+    }
+
+    .stats div:nth-child(2) div:first-child{
+
+        padding-top:5%;
+            }
+
+
+
+
+    .stats div:nth-child(2) div article h3{
+    font-size: 1.8461538462em;
+color: #00b39b;
+margin: .5em 0;
+    }
+    .offices{
+display: flex;
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+    }
+
+
+    .offices article:first-child{
+width:30%;
+margin:auto;
+
+
+    }
+
+    .offices article:first-child h1, .offices article:first-child p{
+        text-align:center;
+
+    }
+
+figure{
+    display: flex;
+    justify-content: center;
+}
+figcaption{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:6%;
+}
+figcaption p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+}
+.offices a:hover{
+    box-shadow:10px 10px 10px 8px #EBEBEB;
+}
+
